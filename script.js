@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="mk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Клуб на млади инженери – KMI</title>
+    <meta
+      name="description"
+      content="Платформа за вмрежување, професионален развој и соработка на младите инженери во Македонија."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="navbar__left">
+        <img class="logo" src="images/imi_logo.jpg" alt="IMI Logo" width="50" height="50" />
+        <img class="logo" src="images/kmi_logo_transparent.png" alt="KMI Logo" width="50" height="50" />
+        <span class="navbar__title">Клуб на млади инженери – KMI</span>
+      </div>
+
+      <nav class="navbar__links" aria-label="Social links">
+        <a
+          href="https://www.linkedin.com/company/young-engineers-club-%D0%BA%D0%BB%D1%83%D0%B1-%D0%BD%D0%B0-%D0%BC%D0%BB%D0%B0%D0%B4%D0%B8-%D0%B8%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%D0%B8/posts/?feedView=all"
+          target="_blank"
+          rel="noopener noreferrer"
+        >LinkedIn</a>
+
+        <a
+          href="https://www.instagram.com/kmi.imi/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Instagram</a>
+
+        <a
+          class="link link--cta"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdRLCinJHmArS_zao7BDETGe8O3j7kyK3HFafh7N9HFEv4BCw/viewform?usp=dialog"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Зачлени се</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section class="hero">
+        <h1 class="hero__title" data-animate="hero-title">Клуб на млади инженери – KMI</h1>
+
+        <p class="hero__subtitle">
+          Платформа за вмрежување, професионален развој и соработка на младите инженери во Македонија,
+          во рамки на Инженерската институција на Македонија.
+        </p>
+
+        <div class="hero__actions">
+          <a
+            class="btn btn--light"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdRLCinJHmArS_zao7BDETGe8O3j7kyK3HFafh7N9HFEv4BCw/viewform?usp=dialog"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Зачлени се</a>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section class="section section--about" id="about">
+        <h2 class="section__title">За нас</h2>
+
+        <div class="grid">
+          <article class="card card--accent">
+            <h3 class="card__title">Мисија</h3>
+            <p class="card__text">
+              Клубот на млади инженери има за цел да обезбеди професионален развој, техничка
+              едукација и активно вклучување на младите инженери во развојот на инженерската
+              професија и индустријата во Македонија.
+            </p>
+          </article>
+
+          <article class="card card--accent">
+            <h3 class="card__title">Визија</h3>
+            <p class="card__text">
+              Клубот на млади инженери има за цел да обезбеди професионален развој, техничка
+              едукација и активно вклучување на младите инженери во развојот на инженерската
+              професија и индустријата во Македонија.
+            </p>
+          </article>
+
+          <article class="card card--accent">
+            <h3 class="card__title">Цели</h3>
+            <p class="card__text">
+              Клубот на млади инженери има за цел да обезбеди професионален развој, техничка
+              едукација и активно вклучување на младите инженери во развојот на инженерската
+              професија и индустријата во Македонија.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- NEWS SECTION -->
+      <section class="section section--news" id="news">
+        <h2 class="section__title">Новости</h2>
+
+        <div class="grid">
+          <article class="card">
+            <h3 class="card__title">Наслов на новост</h3>
+            <p class="meta">Датум</p>
+            <p class="card__text">
+              Опис на активноста на Клубот на млади инженери. Ова ќе се ажурира со реални
+              информации за настани и проекти.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="card__title">Наслов на новост</h3>
+            <p class="meta">Датум</p>
+            <p class="card__text">
+              Опис на активноста на Клубот на млади инженери. Ова ќе се ажурира со реални
+              информации за настани и проекти.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="card__title">Наслов на новост</h3>
+            <p class="meta">Датум</p>
+            <p class="card__text">
+              Опис на активноста на Клубот на млади инженери. Ова ќе се ажурира со реални
+              информации за настани и проекти.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer__links">
+        <a
+          href="https://www.linkedin.com/company/young-engineers-club-%D0%BA%D0%BB%D1%83%D0%B1-%D0%BD%D0%B0-%D0%BC%D0%BB%D0%B0%D0%B4%D0%B8-%D0%B8%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%D0%B8/posts/?feedView=all"
+          target="_blank"
+          rel="noopener noreferrer"
+        >LinkedIn</a>
+
+        <a
+          href="https://www.instagram.com/kmi.imi/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Instagram</a>
+      </div>
+
+      <p>© <span id="year"></span> Клуб на млади инженери – KMI</p>
+      <p class="footer__sub">Во рамки на Инженерска институција на Македонија</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
